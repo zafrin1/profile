@@ -376,15 +376,16 @@ margin: .7rem 0;
         background: var(--bg-color);
         border-top: .1rem solid rgba(0,0,0,.2);
         box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+   display: none;
     }
   .navbar.active{
     display: block;
   }
-  .navbar a{
+  /* .navbar a{
     display: block;
     font-size: 2rem;
     margin: 3rem;
-  }
+  } */
     .home {
         flex-direction: column;
     }
@@ -396,15 +397,15 @@ margin: .7rem 0;
     .home-content h1{
         font-size: 5rem;
     }
-
+ .home-content{
+        order: 2;
+    }
     .home-img img{
         width: 70vw;
         margin-top: 4rem;
     }
 
-    .home-content{
-        order: 2;
-    }
+   
 
     .about{
         flex-direction: column;
